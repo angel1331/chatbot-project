@@ -1,0 +1,44 @@
+.send-button {
+  background-color: #198754;
+  color: white;
+  border: 0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #198754bd;
+  }
+}
+
+.clear-button {
+  border: 0;
+  background-color:#e6e6e6;
+  border-radius: 10px;
+  padding: 12px 12px;
+  margin-left: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #e6e6e6a4;
+  }
+}
+
+.chatbot-input {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: #ababb5 solid 1px;
+  flex-grow: 1;
+}
+
+.chatbot-input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
